@@ -1,4 +1,5 @@
 package com.unimelb.swen30006.workshops;
+import java.util.List;
 
 public class Assignment {
     String description;
