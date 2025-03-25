@@ -1,11 +1,13 @@
 package com.unimelb.swen30006.workshops;
 import java.util.List;
 
+
 public class Assignment {
-    String description;
-    Date dueDate;
-    int maxAttempts;
-    String name;
+    private String description;
+    private Date dueDate;
+    private int maxAttempts;
+    private String name;
+    private Submission submission;
 
     public List<Submission> invalidSubmissions() {
         // Implementation for retrieving invalid submissions

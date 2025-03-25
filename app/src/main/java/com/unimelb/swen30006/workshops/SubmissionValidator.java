@@ -9,9 +9,10 @@ public interface SubmissionValidator {
     /**
      * Validate a given submission, looping through all included files and returning
      * a response of all validation errors, or null if there are no errors
+     *
      * @param submission the assignment submission to validate
      * @return an array of validation errors (or possibly null if no errors)
      */
-    ValidationError validateSubmission(Submission submission);
+    Object[] validateSubmission(Submission submission);
 
 }

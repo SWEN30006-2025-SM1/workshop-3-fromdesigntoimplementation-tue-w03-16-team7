@@ -2,9 +2,9 @@ package com.unimelb.swen30006.workshops;
 
 // Sample private file class to be replaced by your implementaiton
 class File {
-    Date createdDate;
-    String fileData;
-    String fileName;
+    private Date createdDate;
+    private String fileData;
+    private String fileName;
 
     public String content() {
         // Implementation for retrieving file content
