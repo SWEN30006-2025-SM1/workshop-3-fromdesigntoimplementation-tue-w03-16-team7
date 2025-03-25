@@ -12,6 +12,6 @@ public interface SubmissionValidator {
      * @param submission the assignment submission to validate
      * @return an array of validation errors (or possibly null if no errors)
      */
-    ValidationError[] validateSubmission(Submission submission);
+    ValidationError validateSubmission(Submission submission);
 
 }
